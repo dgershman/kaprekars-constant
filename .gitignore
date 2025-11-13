@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Generated files
+kaprekar_6174_analysis.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
