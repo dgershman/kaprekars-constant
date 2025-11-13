@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 visualize.py)",
+      "Bash(git add .gitignore Makefile README.md app.py requirements.txt visualize.py)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Kaprekar''s Constant (6174) implementation\n\n- Add interactive Kaprekar routine application\n- Add comprehensive visualization and analysis tool\n- Add Makefile for easy setup and execution\n- Add README with mathematical background and usage\n- Add requirements.txt for dependency management\n- Add .gitignore for Python and venv files\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add origin git@github.com:dgershman/kaprekars-constant.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
