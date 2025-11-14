@@ -10,9 +10,6 @@ __pycache__/
 *.so
 .Python
 
-# Generated files
-kaprekar_6174_analysis.png
-
 # IDE
 .vscode/
 .idea/

@@ -21,6 +21,8 @@ help:
 setup:
 	@echo "Creating virtual environment..."
 	$(PYTHON) -m venv $(VENV)
+	@echo "Upgrading pip..."
+	$(BIN)/pip install --upgrade pip
 	@echo "Installing dependencies..."
 	$(BIN)/pip install -r requirements.txt
 	@echo ""

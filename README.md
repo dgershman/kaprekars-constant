@@ -88,6 +88,8 @@ The visualization includes:
 - Statistical summary
 - Special cases (fastest/slowest converging numbers)
 
+![Kaprekar's Constant Analysis](kaprekar_6174_analysis.png)
+
 ### Other Commands
 
 ```bash
